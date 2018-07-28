@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.coinmarketrank.io" version="1.1.11" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.coinmarketrank.io" version="1.1.12" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>CoinMarketRank.io</name>
     <description>
         A new way to see Coin Market Capitalization Rankings bitcoin, ethereum, ripple, BAT, EOS, Stellar,...
@@ -11,6 +11,7 @@
     
         <!-- Plugins -->
     <!-- Core plugins -->
+    
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera"              source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture"       source="npm" spec="~1.2.0" />
@@ -33,6 +34,7 @@
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
 
     <!-- Define app icon and splashscreen for each platform. -->
+        <!--
     <icon src="icon.png" />
     <platform name="android">
         <icon   src="res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
@@ -90,33 +92,7 @@
         <splash src="res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" />
     </platform>
 
-    <platform name="windows">
-        <!-- For Windows the recommended approach to define app icons is to use target attribute -->
-        <!-- <icon src="res/icon/windows/StoreLogo.png"         target="StoreLogo" /> -->
-        <!-- <icon src="res/icon/windows/Square30x30Logo.png"   target="Square30x30Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square44x44Logo.png"   target="Square44x44Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square70x70Logo.png"   target="Square70x70Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square71x71Logo.png"   target="Square71x71Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
-        <!-- <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
-        <!-- <icon src="res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
-        <icon src="res/icon/windows/Square150x150Logo.scale-100.png"     platform="windows"   width="150"  height="150" />
-        <icon src="res/icon/windows/Square30x30Logo.scale-100.png"       platform="windows"   width="30"   height="30" />
-        <icon src="res/icon/windows/StoreLogo.scale-100.png"             platform="windows"   width="50"   height="50" />
-        <splash src="res/screen/windows/SplashScreen.scale-100.png"      platform="windows"   width="620"  height="300" />
-        <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
-        <icon   src="res/icon/windows/StoreLogo.scale-240.png"           platform="windows"   width="120"  height="120" />
-        <icon   src="res/icon/windows/Square44x44Logo.scale-100.png"     platform="windows"   width="44"   height="44" />
-        <icon   src="res/icon/windows/Square44x44Logo.scale-240.png"     platform="windows"   width="106"  height="106" />
-        <icon   src="res/icon/windows/Square70x70Logo.scale-100.png"     platform="windows"   width="70"   height="70" />
-        <icon   src="res/icon/windows/Square71x71Logo.scale-100.png"     platform="windows"   width="71"   height="71" />
-        <icon   src="res/icon/windows/Square71x71Logo.scale-240.png"     platform="windows"   width="170"  height="170" />
-        <icon   src="res/icon/windows/Square150x150Logo.scale-240.png"   platform="windows"   width="360"  height="360" />
-        <icon   src="res/icon/windows/Square310x310Logo.scale-100.png"   platform="windows"   width="310"  height="310" />
-        <icon   src="res/icon/windows/Wide310x150Logo.scale-100.png"     platform="windows"   width="310"  height="150" />
-        <icon   src="res/icon/windows/Wide310x150Logo.scale-240.png"     platform="windows"   width="744"  height="360" />
-        <splash src="res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" />
-    </platform>
+    -->
     
     <access origin="*" />
     <allow-intent href="http://*/*" />
