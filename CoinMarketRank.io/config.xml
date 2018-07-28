@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.coinmarketrank.io" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>CoinMarketRank.io</name>
+    <description>
+        A new way to see Coin Market Capitalization Rankings bitcoin, ethereum, ripple, BAT, EOS, Stellar,...
+    </description>
+    <author email="info@coinmarketrank.io" href="http://coinmarketrank.io">
+        MrAddon
+    </author>
+    <content src="mobile/index.html" />
+    <access origin="*" />
+</widget>
