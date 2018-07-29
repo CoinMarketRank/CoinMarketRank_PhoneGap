@@ -38,7 +38,7 @@
     <icon src="images/76.png" platform="ios" width="76" height="76" />
     <icon src="images/152.png" platform="ios" width="152" height="152" />
     <icon src="images/120.png" platform="ios" width="120" height="120" />  
-    <icon src="images/1024.png" platform="ios" width="1024" height="1024" />    
+    <icon src="images/1024.jpg" platform="ios" width="1024" height="1024" />    
     <icon src="images/logo.png" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="phonegap-version" value="cli-7.1.0" />
