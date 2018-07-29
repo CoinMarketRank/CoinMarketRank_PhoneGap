@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.coinmarketrank.io" version="1.1.13" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.coinmarketrank.io" version="1.1.15" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
@@ -13,7 +13,7 @@
     <author email="info@coinmarketrank.io" href="http://coinmarketrank.io">
         MrAddon
     </author>
-    <content src="mobile/index.html" />
+    <content src="index.html" />
     <icon src="images/CoinMarketRank.io.square.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -22,4 +22,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
 </widget>
