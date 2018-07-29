@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.coinmarketrank.io" version="1.1.24" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.coinmarketrank.io" version="1.1.25" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>CoinMarketRank.io</name>
     <description>
         A new way to see Coin Market Capitalization Rankings bitcoin, ethereum, ripple, BAT, EOS, Stellar,...
@@ -41,6 +41,7 @@
     <icon src="images/CoinMarketRank.io.square.1024.png" platform="ios" width="1024" height="1024" />    
     <icon src="images/CoinMarketRank.io.square.png" />
     <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <!--<preference name="android-minSdkVersion" value="26" />-->
     <!--
     <platform name="android">
