@@ -25,5 +25,4 @@
     <allow-intent href="https://*/*" />
     <allow-intent href="http://*/*" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="phonegap-version" value="cli-7.1.0" />
 </widget>
