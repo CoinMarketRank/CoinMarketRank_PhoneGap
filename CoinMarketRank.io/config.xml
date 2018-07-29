@@ -39,7 +39,7 @@
     <icon src="images/CoinMarketRank.io.square.152.png" platform="ios" width="152" height="152" />
     <icon src="images/CoinMarketRank.io.square.120.png" platform="ios" width="120" height="120" />  
     <icon src="images/CoinMarketRank.io.square.1024.png" platform="ios" width="1024" height="1024" />    
-    <icon src="images/CoinMarketRank.io.square.png" />
+    <!--<icon src="images/CoinMarketRank.io.square.png" />-->
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="phonegap-version" value="cli-7.1.0" />
     <!--<preference name="android-minSdkVersion" value="26" />-->

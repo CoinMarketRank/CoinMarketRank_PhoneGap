@@ -19,7 +19,6 @@
     <icon height="152" platform="ios" src="images/CoinMarketRank.io.square.152.png" width="152" />
     <icon height="120" platform="ios" src="images/CoinMarketRank.io.square.120.png" width="120" />
     <icon height="1024" platform="ios" src="images/CoinMarketRank.io.square.1024.png" width="1024" />
-    <icon src="images/CoinMarketRank.io.square.png" />
     <access origin="https://*/*" />
     <access origin="http://*/*" />
     <allow-intent href="https://*/*" />
