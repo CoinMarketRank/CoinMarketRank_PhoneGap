@@ -34,12 +34,12 @@
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
 
     <!-- Define app icon and splashscreen for each platform. -->
-    <icon src="images/CoinMarketRank.io.square.40.png" platform="ios" width="40" height="40" />
-    <icon src="images/CoinMarketRank.io.square.76.png" platform="ios" width="76" height="76" />
-    <icon src="images/CoinMarketRank.io.square.152.png" platform="ios" width="152" height="152" />
-    <icon src="images/CoinMarketRank.io.square.120.png" platform="ios" width="120" height="120" />  
+    <icon src="images/40.png" platform="ios" width="40" height="40" />
+    <icon src="images/76.png" platform="ios" width="76" height="76" />
+    <icon src="images/152.png" platform="ios" width="152" height="152" />
+    <icon src="images/120.png" platform="ios" width="120" height="120" />  
     <icon src="images/1024.png" platform="ios" width="1024" height="1024" />    
-    <!--<icon src="images/CoinMarketRank.io.square.png" />-->
+    <icon src="images/logo.png" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="phonegap-version" value="cli-7.1.0" />
     <!--<preference name="android-minSdkVersion" value="26" />-->

@@ -14,11 +14,12 @@
         MrAddon
     </author>
     <content src="mobile/index.html" />
-    <icon height="40" platform="ios" src="images/CoinMarketRank.io.square.40.png" width="40" />
-    <icon height="76" platform="ios" src="images/CoinMarketRank.io.square.76.png" width="76" />
-    <icon height="152" platform="ios" src="images/CoinMarketRank.io.square.152.png" width="152" />
-    <icon height="120" platform="ios" src="images/CoinMarketRank.io.square.120.png" width="120" />
-    <icon height="1024" platform="ios" src="images/CoinMarketRank.io.square.1024.png" width="1024" />
+    <icon height="40" platform="ios" src="images/40.png" width="40" />
+    <icon height="76" platform="ios" src="images/76.png" width="76" />
+    <icon height="152" platform="ios" src="images/152.png" width="152" />
+    <icon height="120" platform="ios" src="images/120.png" width="120" />
+    <icon height="1024" platform="ios" src="images/1024.png" width="1024" />
+    <icon src="images/logo.png" />
     <access origin="https://*/*" />
     <access origin="http://*/*" />
     <allow-intent href="https://*/*" />
