@@ -1,4 +1,3 @@
-<script>window.location.href = "/mobile/";</script>
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -70,7 +69,10 @@ ChatbroLoader({encodedChatId: '02DW9'});
                                                         <li><a href="icos.html">ICOS</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="twitter.html" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                                        <li><a href="https://steemit.com/@coinmarketrank" class="icon fa-reddit"><span class="label">Steemit</span></a></li>
+                                                        <li><a href="https://medium.com/@coinmarketrank" class="icon fa-medium"><span class="label">Medium</span></a></li>
+							<li><a href="https://twitter.com/coin_rank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCALYBnaNZqIAy6VOCcTI_-w" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
 							<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
                                                         <li><a href="https://CoinMarketRank.wordpress.com" class="icon fa-wordpress" target="new"><span class="label">GitHub</span></a></li>
@@ -96,7 +98,32 @@ ChatbroLoader({encodedChatId: '02DW9'});
 								<ul class="actions special">
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul>-->
-                                                                <iframe width="103%" height="6800px" src="http://jira.coinmarketrank.io:8080/plugins/servlet/eazybi/accounts/3/embed/dashboard/9?embed_token=9s7vb2welrdq53adhxjtjxhyzp3qj3i4ao68qdcoo8mrcmsr9ndi1grk090m" frameborder="0"></iframe>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" width="103%" >
+  <div class="tradingview-widget-container__widget" width="103%" ></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "title": "BTC/USD",
+      "proName": "BITFINEX:BTCUSD"
+    },
+    {
+      "title": "ETH/USD",
+      "proName": "BITFINEX:ETHUSD"
+    },
+    {
+      "title": "EUR/USD",
+      "proName": "FX_IDC:EURUSD"
+    }    
+  ],
+  "locale": "en",
+  "linkPageTemplate": "http://coinmarketrank.io/graphs.html"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+                                                                <iframe width="103%" height="6800px" src="https://jira.coinmarketrank.io/plugins/servlet/eazybi/accounts/3/embed/dashboard/9?embed_token=9s7vb2welrdq53adhxjtjxhyzp3qj3i4ao68qdcoo8mrcmsr9ndi1grk090m" frameborder="0"></iframe>
                                                         </article>
 
 						<!-- Posts -->
@@ -261,14 +288,74 @@ ChatbroLoader({encodedChatId: '02DW9'});
                 var button = document.createElement("Button");
                 button.onclick = function() {window.location.href="https://coinmarketrank.atlassian.net/servicedesk/customer/portal/1";}
 button.innerHTML = "Get Support!";
-button.style = "top:0;right:-1;position:absolute;z-index: 9999";
+button.style = "top:0;right:-1;position:absolute;z-index: 9999;width:180px;";
 document.body.appendChild(button);    
                 var button = document.createElement("Button");
                 button.onclick = function() {window.location.href="https://coinmarketrank.atlassian.net/projects/DEV/issues/";}
 button.innerHTML = "Development";
-button.style = "top:50px;right:-1;position:absolute;z-index: 9999";
-document.body.appendChild(button);    
+button.style = "top:50px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="https://marketplace.atlassian.com/apps/1219387/coinmarketrank-io-for-jira?hosting=server&tab=overview";}
+button.innerHTML = "Jira Server App";
+button.style = "top:100px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="https://play.google.com/store/apps/details?id=com.coinmarketrank.io&hl=es_419";}
+button.innerHTML = "Android App";
+button.style = "top:150px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="https://itunes.apple.com/us/app/coinmarketrank-io/id1419093519?ls=1&mt=8";}
+button.innerHTML = "Apple iOS App";
+button.style = "top:200px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="https://steemit.com/@coinmarketrank";}
+button.innerHTML = "Steemit / News";
+button.style = "top:250px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="https://twitter.com/coin_rank";}
+button.innerHTML = "Twitter";
+button.style = "top:300px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="top20.html";}
+button.innerHTML = "Top20 Ranking";
+button.style = "top:350px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="topchange.html";}
+button.innerHTML = "Winners";
+button.style = "top:400px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
+                var button = document.createElement("Button");
+                button.onclick = function() {window.location.href="badchange.html";}
+button.innerHTML = "Losers";
+button.style = "top:450px;right:-1;position:absolute;z-index: 9999;width:180px;";
+document.body.appendChild(button);
                 </script>
-
+                
+                 <!-- CryptoRival News Widget BEGIN -->
+                <div style="top:0px;left:200px;position:absolute;z-index: 9999">
+<script type="text/javascript" src="https://static.cryptorival.com/js/newswidget.js"></script>
+<a id="cr-copyright" href="https://cryptorival.com/" target="_blank" rel="nofollow">Cryptonews powered by CryptoRival</a>
+<script type="text/javascript">
+showNews('500', true, '0', 'FFFFFF', 'FFFFFF', 'FFFF00', 'FFFF00', '265');
+</script>
+</div>
+<!-- CryptoRival News Widget END -->
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" style="top:0px;left:600px;position:absolute;z-index: 9999;color:white;">
+</div>
+<div style="top:210px;left:600px;position:absolute;z-index: 9999;color:white;"><a href="graphs.html"><img style="width:260px;" src="https://s2.coinmarketcap.com/generated/sparklines/web/7d/usd/1.png"></a></div>
+<div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" style="top:0px;left:900px;position:absolute;z-index: 9999;color:white;"></div>
+<div style="top:210px;left:900px;position:absolute;z-index: 9999;color:white;"><a href="graphs.html"><img style="width:260px;" src="https://s2.coinmarketcap.com/generated/sparklines/web/7d/usd/1027.png"></a></div>
+<!--<div style="top:300px;left:900px;position:absolute;z-index: 9999;">
+<iframe style="z-index: 9999;color:white;" width="100%" height="300" src="https://jira.coinmarketrank.io/plugins/servlet/eazybi/accounts/3/embed/report/22?embed_token=g47puyh460w94qo5r0p15m3amyxxa8yemqqpaz5wc8oiheyzyfboiufljnrl" frameborder="0"></iframe>
+</div> -->
+<div style="top:330px;left:200px;position:absolute;z-index: 9999;color:white;"><img style="width:800px;" src="https://s2.coinmarketcap.com/generated/sparklines/web/7d/usd/1.png"></div>
+    
 	</body>
 </html>
